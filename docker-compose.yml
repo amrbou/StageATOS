@@ -1,0 +1,30 @@
+services:
+  tmf_backend:
+    build:
+      context: ./tmf_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./tmf_backend:/app
+
+  telephony:
+    build:
+      context: ./telephony
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./telephony:/app
+  
+  internet:
+    build:
+      context: ./telephony copy
+    ports:
+      - "3004:3004"
+      
+  federation_host:
+    build:
+      context: ./federation-host
+    ports:
+      - "3002:3002"
+    volumes:
+      - ./federation-host:/app

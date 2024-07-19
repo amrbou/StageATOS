@@ -1,0 +1,14 @@
+<div className="App"></div>
+<header><h1>Catalogue Internet</h1></header>
+<hr />
+<div class="product-list-container">
+    <ul class="product-list">
+      <li *ngFor="let product of products" class="product-item">
+        <div class="product-name">{{ product.name }}</div>
+        <div class="product-brand">{{ product.brand }}</div>
+        <div class="product-description">{{ product.description }}</div>
+        <div class="product-price">{{ product.price }} DH</div>
+      </li>
+    </ul>
+  </div>
+  

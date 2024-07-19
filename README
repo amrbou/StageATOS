@@ -1,0 +1,11 @@
+# Project Name
+Micro front-ends et fédération de modules
+## Introduction
+C'est un projet incluant l'utilisation de django en tant que backend ainsi que deux front ends, l'un avec angular et l'autre avec React ainsi que la fédération de modules
+
+## Prerequisites
+- Docker
+- Docker Compose
+- Node.js
+- Python
+- Django

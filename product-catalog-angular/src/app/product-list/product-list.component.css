@@ -1,0 +1,56 @@
+.App {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+header {
+    background-color: #4685d3;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+.product-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    min-height: 400px;
+    font-family: Arial, sans-serif;
+}
+
+.product-list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.product-name {
+    font-size: 1.5em;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.product-brand {
+    font-size: 1.2em;
+    color: #666;
+    font-family: Arial, sans-serif;
+}
+
+.product-price {
+    font-size: 1.2em;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
